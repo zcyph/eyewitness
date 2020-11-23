@@ -1,8 +1,11 @@
-# everymark configuration file
+# eyewitness configuration file
 
-# Firefox places.sqlite, ie: "/home/youruser/.mozilla/firefox/sd94b4jk.default-release/places.sqlite"
-Places_File = "/home/marcx1/.librewolf/eoohho6a.default-release/places.sqlite"
-Places_WAL = "/home/marcx1/.librewolf/eoohho6a.default-release/places.sqlite-wal"
+# Enter your own Firefox path to places.sqlite & WAL files, ie:
+# "/home/youruser/.mozilla/firefox/sd94b4jk.default-release/places.sqlite"
+# "/home/youruser/.mozilla/firefox/sd94b4jk.default-release/places.sqlite-wal"
+Places_File = "/places.sqlite"
+Places_WAL = "/places.sqlite-wal"
 
-# Location of desired automated backup, example: "/home/youruser/Nextcloud/Backup/everymark/"
-Backup_Folder = "/home/marcx1/Nextcloud/Backup/eyewitness/"
+# Enter your own path for desired backup location, ie:
+# "/home/youruser/Nextcloud/Backup/eyewitness/"
+Backup_Folder = "/eyewitness/"
